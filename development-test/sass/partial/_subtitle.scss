@@ -1,0 +1,23 @@
+
+//H2 Title customization
+  .section_subtitle{
+    text-align: center;
+    font-size: 2rem;
+    @include Ranga();
+
+    &-red{
+      color: $hexis-red;
+    }
+    &-yellow{
+      color: $material-yellow;
+    }
+    &-green{
+      color: $material-green;
+    }
+    &-blue{
+      color: $material-blue;
+    }
+    &-gray{
+      color: $material-gray;
+    }
+  }

@@ -1,0 +1,9 @@
+//Mixins scss
+@mixin borderRadius($borderradius) {
+  border-radius: $borderradius;
+}
+
+@mixin backgroundOpacity($color,$opacity) {
+  background: rgba($color, $opacity);
+
+}

@@ -1,0 +1,16 @@
+//google fonts scss
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Ranga|Roboto');
+
+$primary-font: 'Baloo Bhaina', cursive;
+
+@mixin balooBhaina() {
+  font-family: $primary-font;
+}
+
+@mixin Ranga() {
+  font-family: 'Ranga', cursive;
+}
+
+@mixin Roboto() {
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,26 @@
+.section{
+
+  @include borderRadius(20px);
+  background-color:$secondary-color;
+
+  &_background{
+
+    @include borderRadius(20px);
+    background-image: url('.././images/hexis2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+  }
+
+  &-dark{
+    background-color: darken($secondary-color, 5%);
+  }
+  &-darker{
+    @include backgroundOpacity($secondary-color, 0.8);
+  }
+  &-darkest{
+    background-color: $secondary-color - 90;
+  }
+}
