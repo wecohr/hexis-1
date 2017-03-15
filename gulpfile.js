@@ -20,6 +20,11 @@ gulp.task ('sass', function() {
   .pipe(gulp.dest ('production-test/css'))
 });
 
+gulp.task('js', function () {
+  gulp.src(['./node_modules/bootstrap/dist/js/bootstrap.min.js' , './node_modules/jquery/dist/jquery.min.js'])
+  .pipe(gulp.dest('production-test/js'))
+});
+
 gulp.task('watch',   function() {
   gulp.watch('./development-test/sass/**/*.scss', ['sass']).on('change', browserSync.reload);
   gulp.watch('./production-test/index.html').on('change', browserSync.reload);

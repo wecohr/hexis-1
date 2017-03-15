@@ -13,11 +13,13 @@
   "author": "Vedran",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-prettyerror": "^1.2.1",
     "gulp-sass": "^3.1.0",
+    "jquery": "^3.1.1",
     "node-normalize-scss": "^1.4.0"
   }
 }
